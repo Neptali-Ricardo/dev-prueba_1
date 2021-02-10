@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    /*background: #F2F2F2;*/
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 35px 135px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.titulo h4 {
+    font-size: 12px;
+    color: #333;
+    font-weight: 600;
+}
+
+.titulo-contacto {
+    width: 30%;
+    font-size: 12px;
+    color: #333;
+}
+
+.titulo-contacto h2 {
+    padding-bottom: 30px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.titulo-contacto h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #ff6850;
+}
+
+.telefono {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.contacto {
+    background: #f5f5f7;
+    padding: 30px;
+}
+
+.contacto a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+}
+
+.wrap {
+    width: 70%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    font-size: 12px;
+    color: #333;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.wrap h3 {
+    padding-top: 30px;
+    font-size: 16px;
+    color: #333;
+}
+
+form {
+    width: 100%;
+    overflow: hidden;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="movil"],
+form textarea,
+.lista {
+    padding: 10px;
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 0%;
+    border: none;
+    background: #f2f2f2;
+}
+
+.form-group a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #ff6850;
+}
+
+form input[type="submit"] {
+    padding: 10px;
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border: none;
+    background: #ff6850;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: #b13432;
+}
+
+form textarea {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 500px;
+    min-height: 500px;
+    height: 150px;
+}
